@@ -1,0 +1,25 @@
+{% load crispy_forms_filters %}
+{% load static %}
+{% load crispy_forms_tags %}
+<link rel="stylesheet" type="text/css" href= "{% static 'nwc/css/bootstrap.css' %}"
+/>
+<script src="{% static 'nwc/js/bootstrap.js' %}"> </script>
+<script src="{% static 'nwc/js/bootstrap.min.js' %}"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List in DataBase</title>
+</head>
+<body>
+<ul>
+    { % for object in object_list % }
+    <li>{{ object.name }}</li>
+    <li>{{ object.hours_work }}</li>
+
+    <!-- if empty -->
+    { % empty % }
+    <li>Item doesn't exist</li>
+    { % end-for %}
+</ul>
+</body>
+</html>

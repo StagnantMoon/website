@@ -9,8 +9,11 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.edit import CreateView
+from django.views.generic.list import ListView
 from .models import *
 from django.shortcuts import render, get_object_or_404
+from .forms import HoursForm
+
 import pandas as pd
 
 
@@ -38,7 +41,7 @@ class ProtectedView(LoginRequiredMixin, View):
             return HttpResponse("You have access to this page.")
 
 
-# Login Class View
+# Login Class View Created  Login Page but couldn't figure out the issue with protected.
 
 
 class LogInView(View):
@@ -52,7 +55,7 @@ class LogInView(View):
             password = form.cleaned_data["password"]
 
             user = authenticate(req, username=username, password=password)
-
+            # Redirect
             if user is not None:
                 login(req, user)
 
@@ -99,10 +102,30 @@ class HoursCreate(CreateView):
     # Specify which fields to be displayed
     fields = ['name',
               # 'date_charity',
-              "hours_work",
+              'hours_work',
               'type_work',
               'service_work',
               'describe']
+
+
+# To View the Database in Lists
+
+class HoursList(ListView):
+    model = Hours
+
+
+# Submit and move to view of form page
+
+def home_view(request):
+    context = {}
+    form = HoursForm(request.POST or None, request.FILES or NONE)
+
+    # is form valid
+    if form.is_valid():
+        form.save()
+
+    context['form'] = form
+    return render(request, "nwc/hours_form.html", context)
 
 # Class-Based Hours View Class
 # class MyView(View):
