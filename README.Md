@@ -8,7 +8,9 @@ did not give me the API.
 Decided to create a website for them using Django, and yeah not the best time. 
 But my creativity is shot from them.
 Future will be to actually build them a website, that allows the user to track hours and then on a separate login page get total number of hours of charity work
-The other thing is they will be able to buy tickets for charity their.
+The other thing is they will be able to buy tickets for charity balls/ect.
+&nbsp;
+I tried various items during this Project, I spent more time learning documentation and trying a bit of debugging here and their. I ultimately ran out of time. The class based views seems to be the way to go, but unfortunately ran out of time.
 
 ### Installation
 Install Python 3
