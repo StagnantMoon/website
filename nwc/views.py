@@ -97,12 +97,12 @@ class HoursCreate(CreateView):
     model = Hours
 
     # Specify which fields to be displayed
-    fields = ["name",
-              "date_charity",
-              # "hours_work",
-              "type_work",
-              "service_work",
-              "describe"]
+    fields = ['name',
+              # 'date_charity',
+              "hours_work",
+              'type_work',
+              'service_work',
+              'describe']
 
 # Class-Based Hours View Class
 # class MyView(View):
