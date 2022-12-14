@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d44e1b-3365-4b92-9e52-1e8a6c2e73c1" name="Changes" comment="Added hours_list.html to try to show things but unfortunately ran out of time.">
-      <change beforePath="$PROJECT_DIR$/nwc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/nwc/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/load_newhours.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/load_newhours.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
+    <list default="true" id="c3d44e1b-3365-4b92-9e52-1e8a6c2e73c1" name="Changes" comment="Added the requiements txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <updated>1670886383983</updated>
       <workItem from="1670886409017" duration="13507000" />
       <workItem from="1670960159316" duration="37427000" />
-      <workItem from="1671007206946" duration="2695000" />
+      <workItem from="1671007206946" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="10th Time to finally get the log in working Correctly:&#10;Added Protected Page, Login and Logout">
       <created>1670972049902</created>
@@ -147,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671006025784</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added the requiements txt">
+      <created>1671009926073</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671009926073</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added the requiements txt">
+      <created>1671009951416</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671009951417</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +184,7 @@
     <MESSAGE value="Added Logo to Image finalizing project for turn in" />
     <MESSAGE value="Tried getting modal to work for instructions but something off and I can't find the error.&#10;&#10;End goals was hoping to show NWC a different Club idea but nope." />
     <MESSAGE value="Added hours_list.html to try to show things but unfortunately ran out of time." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hours_list.html to try to show things but unfortunately ran out of time." />
+    <MESSAGE value="Added the requiements txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the requiements txt" />
   </component>
 </project>
