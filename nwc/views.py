@@ -8,7 +8,9 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.views.generic.edit import CreateView
 from .models import *
+from django.shortcuts import render, get_object_or_404
 import pandas as pd
 
 
@@ -91,22 +93,40 @@ class LogoutView(View):
         return HttpResponse("Logout view")
 
 
-def home(request):
-    return render(request, "nwc/index.html")
-    # return HttpResponse("hola i am working")
-    # return render(request=request, template_name="nwc/home.html")
+class HoursCreate(CreateView):
+    model = Hours
+
+    # Specify which fields to be displayed
+    fields = ["name",
+              "date_charity",
+              # "hours_work",
+              "type_work",
+              "service_work",
+              "describe"]
+
+# Class-Based Hours View Class
+# class MyView(View):
+#     def get(self, request):
+#
+#         return HttpResponse('result')
 
 
-def register(request):
-    return render(request, "nwc/register.html")
+# def home(request):
+# return render(request, "nwc/index.html")
+# return HttpResponse("hola i am working")
+# return render(request=request, template_name="nwc/home.html")
 
 
-def signin(request):
-    return render(request, "nwc/signin.html")
+# def register(request):
+# return render(request, "nwc/register.html")
 
 
-def signout(request):
-    pass
+# def signin(request):
+# return render(request, "nwc/signin.html")
+
+
+# def signout(request):
+# pass
 
 # def register_request(request):
 #     if request.method == "POST":
