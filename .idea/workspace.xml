@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3d44e1b-3365-4b92-9e52-1e8a6c2e73c1" name="Changes" comment="Added hours_list.html to try to show things but unfortunately ran out of time.">
+      <change beforePath="$PROJECT_DIR$/nwc/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/nwc/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/load_newhours.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/load_newhours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/nwc/templates/nwc/hours_form.html" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2IplPkw4cTVKwXJQmdvbIkrNvox" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="website" type="Python.DjangoServer" factoryName="Django server">
+      <module name="website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3d44e1b-3365-4b92-9e52-1e8a6c2e73c1" name="Changes" comment="" />
+      <created>1670886383983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670886383983</updated>
+      <workItem from="1670886409017" duration="13507000" />
+      <workItem from="1670960159316" duration="37427000" />
+      <workItem from="1671007206946" duration="2695000" />
+    </task>
+    <task id="LOCAL-00001" summary="10th Time to finally get the log in working Correctly:&#10;Added Protected Page, Login and Logout">
+      <created>1670972049902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670972049902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="10th Time to finally get the log in working Correctly:&#10;Added Protected Page, Login and Logout">
+      <created>1670972174963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670972174963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Login and various models to try to get a CSV imported">
+      <created>1670989857203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670989857203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Track Hours, Removed DateField, some error could not find it">
+      <created>1670994284913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670994284913</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added BootStrap and Crispy Forms">
+      <created>1670998373613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670998373613</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Logo to Image finalizing project for turn in">
+      <created>1670999979353</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670999979353</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tried getting modal to work for instructions but something off and I can't find the error.&#10;&#10;End goals was hoping to show NWC a different Club idea but nope.">
+      <created>1671003092262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671003092262</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added hours_list.html to try to show things but unfortunately ran out of time.">
+      <created>1671006025784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006025784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10th Time to finally get the log in working Correctly:&#10;Added Protected Page, Login and Logout" />
+    <MESSAGE value="Added Login and various models to try to get a CSV imported" />
+    <MESSAGE value="Added Track Hours, Removed DateField, some error could not find it" />
+    <MESSAGE value="Added BootStrap and Crispy Forms" />
+    <MESSAGE value="Added Logo to Image finalizing project for turn in" />
+    <MESSAGE value="Tried getting modal to work for instructions but something off and I can't find the error.&#10;&#10;End goals was hoping to show NWC a different Club idea but nope." />
+    <MESSAGE value="Added hours_list.html to try to show things but unfortunately ran out of time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added hours_list.html to try to show things but unfortunately ran out of time." />
+  </component>
+</project>
