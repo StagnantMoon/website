@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+{% load crispy_forms_filters %}
+{% load static %}
+{% load crispy_forms_tags %}
+<link rel="stylesheet" type="text/css" href= "{% static 'nwc/css/bootstrap.css' %}"
+/>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +11,8 @@
 <body>
     <form method="POST">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ form.username | as_crispy_field }}
+        {{ form.password | as_crispy_field }}
         <input type="submit" value="Login" />
     </form>
 </body>
