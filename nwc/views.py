@@ -118,7 +118,7 @@ class HoursList(ListView):
 
 def home_view(request):
     context = {}
-    form = HoursForm(request.POST or None, request.FILES or NONE)
+    form = HoursForm(request.POST or None, request.FILES or None)
 
     # is form valid
     if form.is_valid():
