@@ -8,6 +8,8 @@ from django.contrib import messages
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib.auth.mixins import LoginRequiredMixin
+from .models import *
+import pandas as pd
 
 
 # Create your views here.
@@ -18,6 +20,12 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 class ProtectedView(LoginRequiredMixin, View):
     login_url = "login"
     redirect_field_name = "redirect_to"
+
+    # item = Hours.objects.all().values()
+    # df = pd.DataFrame(item)
+    # mydict = {
+    #     "df": df.to_html()
+    # }
 
     def get(self, req, *args, **kwargs):
         user = req.user

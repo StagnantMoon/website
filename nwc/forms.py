@@ -8,6 +8,9 @@ class LoginForm(Form):
     password = CharField(widget=PasswordInput())
 
 
+class TrackHours(Form):
+    name = CharField(max_length=100)
+
 
 
 
